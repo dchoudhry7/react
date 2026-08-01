@@ -9,7 +9,10 @@ function App() {
   let [counter,setCounter] = useState(0)
 
   let increase = () => {
-    if(counter < 10) setCounter(counter+1)
+    if(counter < 10) setCounter((counter) => counter+1)
+    if(counter < 10) setCounter((counter) => counter+1)
+    if(counter < 10) setCounter((counter) => counter+1)
+    if(counter < 10) setCounter((counter) => counter+1)
   }
 
   let decrease = () => {
@@ -20,9 +23,9 @@ function App() {
     <div>
       <h1>Rating: {counter}</h1>
       <div>
-        <button onClick={increase}>📈</button>
+        <button onClick={increase}>📈 : {counter}</button>
         <br/>
-        <button onClick={decrease}>📉</button>
+        <button onClick={decrease}>📉 : {counter}</button>
       </div>
     </div>
   )
