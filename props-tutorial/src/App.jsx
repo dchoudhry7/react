@@ -1,15 +1,9 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "./assets/vite.svg";
-import heroImg from "./assets/hero.png";
-import "./App.css";
 
 function App(props) {
 
   return (
-    <>
-      <h1 className="bg-green-400">Tailwind Injected</h1>
-
+    <div style={{backgroundColor:"rgba(4, 4, 7, 0.87)"}}>
       <div className="flex items-center justify-center min-h-screen">
         <div className="bg-neutral-primary-soft block max-w-sm border border-default rounded-base shadow-xs">
           <a href="#">
@@ -71,7 +65,7 @@ function App(props) {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
