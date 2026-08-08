@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 75vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(35,35,35);
+}
+
+.box {
+    padding: 1rem;
+    scale: 200%;
+    text-align: center;   
+    background-color: slateblue;
+    border: 2px solid black;
+}
+
+h1 {
+    font-size: x-large;
+}
+
+button {
+    scale: 75%;
+    background-color: crimson;
+    border: 1px dashed black;
+    padding: 2px;
+    opacity: 0.75;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+p {
+    font-size: small;
+    opacity: 0.75;
+}
